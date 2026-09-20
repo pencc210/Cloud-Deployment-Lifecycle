@@ -21,4 +21,4 @@ api.add_resource(Success, '/success') #class and URI
 api.add_resource(Error, '/error')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
